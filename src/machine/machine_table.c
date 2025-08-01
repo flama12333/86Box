@@ -4119,7 +4119,7 @@ const machine_t machines[] = {
     }, 
     /* Has IBM PS/2 Type 1 KBC firmware. */ 
     { 
-        .name = "[SCAT] Samsung SPC-4200P", 
+        .name = "[SCAT] Samsung SPC-4200P", /* Machine has video: Samsung SGB-3140K  */
         .internal_name = "spc4200p", 
         .type = MACHINE_TYPE_286, 
         .chipset = MACHINE_CHIPSET_SCAT, 
